@@ -1,0 +1,5 @@
+sc-7kepeu-0 sc-iSDuPN fwzNdh,Restaurant Name
+sc-eXNvrr cMFgfA,Restaurant Type
+sc-clNaTc ckqoPM,Location
+sc-kasBVs dfwCXs,Operating Hours
+sc-bFADNz leEVAg,Contact Information
