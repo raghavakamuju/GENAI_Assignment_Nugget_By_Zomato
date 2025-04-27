@@ -48,12 +48,12 @@ The Nugget AI Smart Search Chatbot is an end-to-end Generative AI solution desig
       ```
       This key must be obtained from the official Gemini website and is required for accessing Google’s Gemini 2.0 Flash model. The application only works when the API key is correctly set.
 
-5. **Run Data Preprocessing: (Optional)**
-    Execute the preprocessing script to scrape the restaurant data, generate embeddings, and build the knowledge base:
-    ```sh
-    python preprocess.py
-    ```
-    This process uses the functions in [`scraper/data_collection.py`](scraper/data_collection.py) for dynamic web scraping (with live `robots.txt` checks) and those from [`pipeline/creating_embeddings.py`](pipeline/creating_embeddings.py) for embedding generation and FAISS indexing. The final output is stored in `knowledge_base/text_extracted_list.pkl`.
+5. **Run Data Preprocessing(Optional):**
+    - Execute the preprocessing script to scrape the restaurant data, generate embeddings, and build the knowledge base:
+      ```sh
+      python preprocess.py
+      ```
+      This process uses the functions in [`scraper/data_collection.py`](scraper/data_collection.py) for dynamic web scraping (with live `robots.txt` checks) and those from [`pipeline/creating_embeddings.py`](pipeline/creating_embeddings.py) for embedding generation and FAISS indexing. The final output is stored in `knowledge_base/text_extracted_list.pkl`.
 
 6. **Launch the Application:**
     Start the Streamlit application:
@@ -148,4 +148,4 @@ For further details on system design, implementation specifics, challenges, and 
 
 ## Demo Video
 
-[Insert Demo Video Link Here]
+[Watch the Demo Video on Google Drive](https://drive.google.com/file/d/19UdBPJfA38iDpybqaXnNCCaPZIHI0kGx/view?usp=sharing)
