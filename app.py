@@ -12,7 +12,7 @@ load_dotenv()
 with open(os.path.join("knowledge_base", "text_extracted_list.pkl"), "rb") as f:
     text_extracted_list, embeddings_array = pickle.load(f)
 
-API_KEY = os.getenv("API_KEY")  # Loaded from your .env file
+API_KEY = os.getenv("API_KEY")  
 from rag_chatbot.generative_ai_utils import configure_genai
 geminimodel = configure_genai(api_key=API_KEY, model_name="gemini-2.0-flash")
 

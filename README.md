@@ -42,12 +42,13 @@ The Nugget AI Smart Search Chatbot is an end-to-end Generative AI solution desig
     ```
 
 4. **Configure Environment Variables:**
-    - Create a `.env` file in the project root by copying the sample:
+    - Create a `.env` file in the project root by copying the sample and adding your Gemini API key:
       ```
-      API_KEY=YOUR_API_KEY_HERE
+      API_KEY=YOUR_GEMINI_API_KEY_HERE
       ```
+      This key must be obtained from the official Gemini website and is required for accessing Google’s Gemini 2.0 Flash model. The application only works when the API key is correctly set.
 
-5. **Run Data Preprocessing:**
+5. **Run Data Preprocessing: (Optional)**
     Execute the preprocessing script to scrape the restaurant data, generate embeddings, and build the knowledge base:
     ```sh
     python preprocess.py
@@ -59,6 +60,7 @@ The Nugget AI Smart Search Chatbot is an end-to-end Generative AI solution desig
     ```sh
     streamlit run app.py
     ```
+    The deployed app is available at: [Link](https://raghavakamuju-genai-assignment-nugget-by-zomato-app-wftjcu.streamlit.app/)
 
 ## Folder Structure
 
@@ -142,6 +144,7 @@ For further details on system design, implementation specifics, challenges, and 
 - **docs/implementation.md** – Detailed component implementation.
 - **docs/challenges.md** – Challenges faced and solutions implemented.
 - **docs/future.md** – Future improvement opportunities.
+- **docs/limitations.md** - Provides information about the limitations of the RAG Chatbot.
 
 ## Demo Video
 
